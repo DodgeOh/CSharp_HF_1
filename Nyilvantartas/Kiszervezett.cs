@@ -34,7 +34,7 @@ namespace Nyilvantartas
         #region ToString és CompareTo
         public override string ToString()
         {
-            return Munkaltato + ", " + Nev;
+            return "Munkáltató " + Munkaltato + ",\tNév: " + Nev;
         }
 
         public int CompareTo(object other)

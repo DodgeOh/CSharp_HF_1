@@ -26,7 +26,7 @@ namespace Nyilvantartas
 
         public override string ToString()
         {
-            return Nev + ", " + Cim;
+            return "Név: " + Nev + ",\tCím: " + Cim;
         }
 
     }    

@@ -33,7 +33,7 @@ namespace Nyilvantartas
         #region ToString, CompareTo
         public override string ToString()
         {
-            return  SzerzodesVege.ToShortDateString() + ", " + Nev;
+            return  "Szerződés vége: " + SzerzodesVege.ToShortDateString() + ",\tNév: " + Nev;
         }
 
         public int CompareTo(object other)

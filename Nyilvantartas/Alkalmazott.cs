@@ -34,7 +34,7 @@ namespace Nyilvantartas
 
         public override string ToString()
         {
-            return Beosztas + ", " + Nev; 
+            return "Beosztás: " + Beosztas + ",\tNév: " + Nev; 
         }
     }
 }
